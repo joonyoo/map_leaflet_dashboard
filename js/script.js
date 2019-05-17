@@ -32,7 +32,7 @@ function currency(x) {
 
  
 
-  L.mapbox.accessToken = 'pk.eyJ1Ijoiam9vbmlzbSIsImEiOiJjaW4yZm4wbDIwYmowdmxtNGRzdzZqMDJvIn0.vfAIeJe5kiO85rq9f0sFdg';
+  L.mapbox.accessToken = 'pk.eyJ1Ijoiam9vbmlzbSIsImEiOiJjanZuOWl0YjIxOW93NDlwaDRraWozeWcxIn0.VKBpD6DcPtju42yB2yYdyg';
   var mapboxTiles = L.tileLayer('https://api.mapbox.com/v4/mapbox.run-bike-hike/{z}/{x}/{y}.png?access_token=' + L.mapbox.accessToken);
 
   //attach map to DOM
